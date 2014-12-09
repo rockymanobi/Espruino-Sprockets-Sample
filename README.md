@@ -2,7 +2,7 @@
 
 ### ビルドに必要なもの 
 
-* bundler (ruby)
+* bundler (rubyのパッケージマネージャです)
 
 ```bash
 
@@ -13,3 +13,6 @@ bundle install --vendor/bundle
 
 ```
 
+#### 確認
+
+`build/espruino.js`の内容が`src/part.js`と`src/main.js`を連結したものになっていればOKです。
